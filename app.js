@@ -92,7 +92,7 @@ function handleCM(event){
 
 // 사진 저장
 function handleSaveClick(){
-  const image = canvas.toDataURL("image/jpeg");
+  const image = canvas.toDataURL();
   // 이곳에서의 a는 html의 a태그이다. <a href="path" download>
   const link = document.createElement("a");
   // link.href -> 이미지 링크

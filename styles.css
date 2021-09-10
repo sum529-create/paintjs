@@ -58,7 +58,23 @@ body{
     cursor: pointer;
     box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0,0,0, 0.08);
 }
+.controls__colors .controls__color:hover{
+    transform: scale(1.5);
+}
 
 .controls .controls__range{
     margin-bottom: 30px;
+}
+
+@media screen and (max-width:630px) {
+    .controls{
+        width: 100%;
+    }
+    .controls .controls__colors{
+        width: 80%;
+    }
+    .controls .controls__colors .controls__color {
+        width: 30%;
+        height: 20px;
+    }
 }
